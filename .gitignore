@@ -170,6 +170,9 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
-/data
+data/
+data/**
+eda_data/
+eda_data/**
 models/
 *.log
