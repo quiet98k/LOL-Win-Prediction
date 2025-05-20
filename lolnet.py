@@ -1,3 +1,5 @@
+import torch
+
 import torch.nn as nn
 
 class LoLNet(nn.Module):
@@ -10,6 +12,8 @@ class LoLNet(nn.Module):
             nn.ReLU(),
             nn.Linear(hidden_dim, output_dim)
         )
+        self.input_sizes = [torch.Size([1, input_dim])]
 
     def forward(self, x):
         return self.model(x)
+
