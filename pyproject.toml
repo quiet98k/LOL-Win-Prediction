@@ -1,7 +1,7 @@
 [project]
 name = "lol-win-prediction"
 version = "0.1.0"
-description = "Predict the winning status based on in-game and mid-game data"
+description = "predics the win probability in League of Legends matches using a deep neural network trained on in-game data"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
